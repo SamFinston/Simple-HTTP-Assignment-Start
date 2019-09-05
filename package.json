@@ -1,0 +1,26 @@
+{
+  "name": "simple-http-assignment-start",
+  "version": "1.0.0",
+  "description": "http homework assignment",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamFinston/Simple-HTTP-Assignment-Start.git"
+  },
+  "author": "SamFinston",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/SamFinston/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/SamFinston/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
